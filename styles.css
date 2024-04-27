@@ -1,0 +1,184 @@
+:root {
+    --bgColor: #181a1b;
+    --boxColor: #1f2123;
+    
+    margin: auto;
+    max-width: 50rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    color: white !important;
+    font-family: "montserrat";
+}
+
+body {
+    background-color: var(--bgColor);
+}
+
+
+@font-face {
+    font-family: "monospace";
+    src: url(/assets/fonts/SpaceMono-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "montserrat";
+    src: url(/assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf) format("truetype");
+}
+
+.main-text {
+    font-size: large;
+}
+
+.main-text a {
+    color: aqua;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.inline {
+    display: inline;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+nav div * {
+    display: inline;
+    font-family: "monospace";
+    text-align: center; 
+}
+
+hr {
+    color: aqua;
+}
+
+.header {
+    background-color: var(--boxColor);
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.warning {
+    background-color: #52551a;
+    border: 2px solid #f2d600;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 5px;
+    font-style: italic;
+}
+
+.warning-label {
+    font-style: normal !important;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20;
+}
+
+.navbar li {
+    transition: all 0.2s ease;
+    display: inline-flex;
+}
+
+.navbar li:hover {
+    color: aqua;
+    
+}
+
+.navbar a {
+    transition: all 0.2 ease;
+}
+
+.navbar a:hover {
+    text-decoration-color: aqua;
+}
+
+nav ul {
+    align-self: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+    font-family: "monospace";
+    font-weight: bolder;
+    font-size: large;
+}
+
+.post {
+    background-color: var(--boxColor);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+}
+
+.post-header h1 {
+    margin: 0;
+    margin-bottom: 1rem;
+    padding: 0;
+    font-size: 1.7rem;
+    text-decoration: none !important;
+}
+
+.post-header p {
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+}
+
+.post-preview {
+    padding: 1rem;
+    border-radius: 15px;
+    background: var(--boxColor);
+    margin: auto;
+    font-weight: 300;
+    color: white;
+    justify-content: left;
+}
+
+.post-preview a {
+    text-decoration: none;
+}
+
+.post-container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.post-metadata {
+    font-size: small;
+}
+
+.post-tags {
+    list-style-type: none;
+    padding: 0;
+    display: inline;
+}
+
+.post-tags li {
+    display: inline;
+}
