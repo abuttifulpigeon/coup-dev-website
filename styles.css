@@ -117,12 +117,23 @@ nav ul {
     margin: 0;
 }
 
-nav ul li {
+nav ul li{
     display: inline;
     margin-right: 1rem;
     font-family: "monospace";
     font-weight: bolder;
     font-size: large;
+}
+
+button, input {
+    background-color: var(--bgColor);
+    color: white;
+    border: solid aqua 1px;
+    border-radius: 5px;
+}
+
+button:hover {
+    
 }
 
 .post {
