@@ -132,10 +132,6 @@ button, input {
     border-radius: 5px;
 }
 
-button:hover {
-    
-}
-
 .post {
     background-color: var(--boxColor);
     padding-left: 15px;
