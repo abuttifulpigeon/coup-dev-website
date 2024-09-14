@@ -193,3 +193,23 @@ button:hover {
 .post-tags li {
     display: inline;
 }
+.main {
+    font-size: large;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40%;
+}
+
+.item {
+    flex: 0 0 calc(50% - 10px); /* 50% width minus gap */
+    
+    margin-bottom: 20px;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: var(--boxColor);
+    padding: 20px;
+    box-sizing: border-box;
+}
