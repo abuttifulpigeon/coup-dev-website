@@ -209,3 +209,33 @@ button, input {
     padding: 20px;
     box-sizing: border-box;
 }
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+.project-card {
+    border: 1px solid #444;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: var(--boxColor);
+}
+.project-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cta {
+    text-align: center;
+    margin-top: 40px;
+}
+.cta a {
+    border: 1px solid aqua;
+    display: inline-block;
+    background-color: var(--boxColor);
+    color: aqua;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
