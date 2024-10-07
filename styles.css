@@ -157,6 +157,7 @@ button, input {
 
 .post-preview {
     padding: 1rem;
+    border: 1px solid #444;
     border-radius: 15px;
     background: var(--boxColor);
     margin: auto;
