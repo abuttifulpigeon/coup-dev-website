@@ -240,3 +240,20 @@ button, input {
     text-decoration: none;
     border-radius: 5px;
 }
+
+.hero-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.hero-img {
+    flex: 0 0 150px;
+    margin-right: 0;
+    padding-left: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+img {
+    border-radius: 15px;
+}
