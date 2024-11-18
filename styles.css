@@ -168,6 +168,8 @@ button, input {
 
 .post-preview a {
     text-decoration: none;
+    color: white;
+    font-weight: normal;
 }
 
 .post-container {
@@ -179,6 +181,11 @@ button, input {
 
 .post-metadata {
     font-size: small;
+    
+}
+
+.post-metadata ul, .post-metadata li {
+    font-weight: normal !important;
 }
 
 .post-tags {
@@ -189,7 +196,13 @@ button, input {
 
 .post-tags li {
     display: inline;
+    margin-right: 20px;
 }
+
+.post-tags li:hover {
+    text-decoration: underline;
+}
+
 .main {
     font-size: large;
     display: flex;
