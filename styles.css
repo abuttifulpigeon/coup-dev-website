@@ -274,3 +274,11 @@ button, input {
 img {
     border-radius: 15px;
 }
+
+.quote {
+    font-style: italic;
+    background-color: #181a1b;
+    border-radius: 15px;
+    padding: 5px 20px;
+    margin-top: 20px;
+}
