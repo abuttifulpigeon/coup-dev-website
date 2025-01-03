@@ -95,7 +95,7 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20;
+    height: 20; 
 }
 
 .navbar li {
