@@ -82,6 +82,10 @@ h3 {
     font-style: italic;
 }
 
+.warning strong {
+    color: white;
+}
+
 .warning-label {
     font-style: normal !important;
 }
