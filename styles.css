@@ -31,11 +31,7 @@ body {
 
 .main-text a {
     color: aqua;
-    text-decoration: underline;
-}
-
-a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .inline {
@@ -63,9 +59,13 @@ hr {
     color: aqua;
 }
 
+h3 {
+    margin-top: 0;
+}
+
 .header {
     background-color: var(--boxColor);
-    border-radius: 15px;
+    border-radius: 5px;
     
 }
 
@@ -175,8 +175,16 @@ button, input {
 
 .post-preview a {
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: normal;
+}
+
+.post-preview a:hover {
+    text-decoration: underline;
+}
+
+.post-preview p a {
+    color: aqua;
 }
 
 .post-container {
